@@ -43,12 +43,4 @@ Menu::make('MyNavBar', function($menu){
     $menu->others->add('Blacklist', 'blacklist');
 });	
 
-
-
-/*Route::any('/{path}', function ($path = '/') {
-	$path = Request::path();
-	
-	Route::get('{$path}', 'DocsController@index');
-});
-*/
 Route::any('/{path?}', 'DocsController@index');
