@@ -15,7 +15,7 @@ Menu::make('MyNavBar', function($menu){
     $menu->add('Voice', 'Manage Items');
     $menu->voice->add('Dashboard', 'dashboard');
     $menu->voice->add('IVR studio', 'ivrstudio');
-    $menu->voice->add('conference Monitoring', 'conference');
+    $menu->voice->add('Conference Monitoring', 'conference');
     $menu->voice->add('Call Logs', 'calllogs');
     $menu->voice->add('Sounds', 'sounds');
     $menu->voice->add('Followup', 'followup');
@@ -34,7 +34,7 @@ Menu::make('MyNavBar', function($menu){
     $menu->analytics->add('Agent Analytics', 'agentalalytics');
     $menu->analytics->add('Agent Performance', 'agentperformance');
 
-    $menu->add('others', 'Plugins');
+    $menu->add('Others', 'Plugins');
 
     $menu->others->add('Phonebook', 'phonebook');
     $menu->others->add('Developers', 'developers');
